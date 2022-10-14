@@ -1,0 +1,37 @@
+@relation contact-lenses-weka.filters.unsupervised.attribute.NominalToBinary-Rfirst-last-weka.filters.unsupervised.attribute.NumericToBinary-Rfirst-last
+
+@attribute age=young_binarized {0,1}
+@attribute age=pre-presbyopic_binarized {0,1}
+@attribute age=presbyopic_binarized {0,1}
+@attribute spectacle-prescrip=hypermetrope_binarized {0,1}
+@attribute astigmatism=yes_binarized {0,1}
+@attribute tear-prod-rate=normal_binarized {0,1}
+@attribute contact-lenses=soft_binarized {0,1}
+@attribute contact-lenses=hard_binarized {0,1}
+@attribute contact-lenses=none_binarized {0,1}
+
+@data
+1,0,0,0,0,0,0,0,1
+1,0,0,0,0,1,1,0,0
+1,0,0,0,1,0,0,0,1
+1,0,0,0,1,1,0,1,0
+1,0,0,1,0,0,0,0,1
+1,0,0,1,0,1,1,0,0
+1,0,0,1,1,0,0,0,1
+1,0,0,1,1,1,0,1,0
+0,1,0,0,0,0,0,0,1
+0,1,0,0,0,1,1,0,0
+0,1,0,0,1,0,0,0,1
+0,1,0,0,1,1,0,1,0
+0,1,0,1,0,0,0,0,1
+0,1,0,1,0,1,1,0,0
+0,1,0,1,1,0,0,0,1
+0,1,0,1,1,1,0,0,1
+0,0,1,0,0,0,0,0,1
+0,0,1,0,0,1,0,0,1
+0,0,1,0,1,0,0,0,1
+0,0,1,0,1,1,0,1,0
+0,0,1,1,0,0,0,0,1
+0,0,1,1,0,1,1,0,0
+0,0,1,1,1,0,0,0,1
+0,0,1,1,1,1,0,0,1
